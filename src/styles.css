@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  background-color: #b3afaf;
+  color: blueviolet;
+}
+
+.bkg-green {
+  background-color: greenyellow !important;
+}
+
+.bkg-red {
+  background-color: #ff00005e;
+}
+
+.app {
+  border: 2px solid black;
+  padding: 8px;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mar-all {
+  margin: 16px;
+}
+
+.d-none {
+  display: none !important;
+}
