@@ -1,3 +1,3 @@
 # math-abacus-level-1
 
-practice random questions for kids
+practice random abacus level 1 questions for kids
