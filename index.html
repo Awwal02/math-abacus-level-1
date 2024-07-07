@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="safeTimer">
+      <h2>Safe Timer</h2>
+      <p id="safeTimerDisplay">00:30</p>
+      <p id="result"></p>
+    </div>
+    <div class="app d-flex w-100 mar-all d-none">
+      <span class="first">2</span>
+      <span class="add">+</span>
+      <span class="second">3</span>
+      <span class="add">-</span>
+      <span class="third">3</span>
+      <span>+</span>
+      <span class="fourth">3</span>
+      <span>=</span>
+      <input type="number" class="answer-input" />
+      <span value="5" class="answer" style="display: none">5</span>
+    </div>
+
+    <script src="src/index.js"></script>
+    <button
+      id="button"
+      style="width: 100px; height: 60px; background-color: yellowgreen"
+    >
+      Submit
+    </button>
+  </body>
+</html>
